@@ -1,0 +1,109 @@
+
+
+html{
+/*  background: purple; */
+}
+body{
+/*  background: orange; */
+}
+/*___________ Style Main Section ___________*/
+main{
+  height: 600px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  background: pink;
+}
+/*___________ Header Style ___________*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  position: absolute;
+  top: -23rem;
+  width: 900px; /*with position absolute, width needs to be set*/
+  background-color: lightgreen;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+/*  background-color: yellow;  */
+}
+nav{
+  display:flex;
+  margin-right: 1rem;
+/* background-color: beige;  */
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+/* background-color: silver;*/
+}
+nav li{
+  margin: 0 .8rem;
+/*  background-color: aqua;  */
+}
+a{
+  color: green;
+}
+
+/*___________ Style Jumbotron ___________*/
+.jumbotron{
+  background: url(../images/img-bedford-bizarre.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+.banner{
+  width: 15rem;
+  height: 4rem;
+  position: absolute;
+  top: -10rem;
+  right: 0;
+  background-color: lightblue;
+  text-align: left;
+  padding: 1rem;
+}
+h1{
+  font-size: 2rem;
+}
+
+
+p{
+  max-width: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+/*  background: silver;*/
+}
+h2{
+  background: blue;
+  color: silver;
+  width: 250px;
+  margin: 10px auto;
+  text-align: center;
+}
+.box{
+  height: 290px;
+}
+
+/*___________ Outlines for development only ___________
+
+*{
+  outline: solid #f00 1px !important;
+}
+/*__________ Ghost Debug Code __________
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
