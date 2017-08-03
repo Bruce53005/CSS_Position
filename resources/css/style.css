@@ -8,15 +8,21 @@ body{
 }
 /*___________ Style Main Section ___________*/
 main{
-  height: 600px;
-  width: 900px;
+  background: url(../images/img-bedford-bizarre.jpg);
+  background-size: cover;
+  height: 20rem;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content{
+  width: 960px;
+  height: 600px;
+  
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  align-items: center;
   position: relative;
-  top: 0;
-  background: pink;
 }
 /*___________ Header Style ___________*/
 header{
@@ -25,15 +31,17 @@ header{
   align-items: center;
   font-size: 1rem;
   position: absolute;
-  top: -23rem;
-  width: 900px; /*with position absolute, width needs to be set*/
+  top: 1rem;
+  width: 960px; /*with position absolute, width needs to be set*/
   background-color: lightgreen;
 }
 .logo{
   display: flex;
   align-items: center;
 }
-
+.logo img{
+  height: 80px;
+}
 /*  background-color: yellow;  */
 }
 nav{
@@ -57,17 +65,14 @@ a{
 }
 
 /*___________ Style Jumbotron ___________*/
-.jumbotron{
-  background: url(../images/img-bedford-bizarre.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 25rem;
-}
+
+
+
 .banner{
   width: 15rem;
   height: 4rem;
   position: absolute;
-  top: -10rem;
+  top: 10rem;
   right: 0;
   background-color: lightblue;
   text-align: left;
